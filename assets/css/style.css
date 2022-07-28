@@ -1,0 +1,186 @@
+
+/* start discover section  */
+.price{
+    color: #289BDE;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ul-content{
+    padding: 20px;
+}
+.ul-image img{
+    width: 100%;
+    height: 100%;
+}
+.ul-content-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Start Explore section */
+.explore-image img{
+  width: 100%;
+}
+.explore-bg{
+    background-color: #F4FAFD;
+}
+.start-ready-bg{
+    background-color:#289BDE ;
+}
+.trusted-heading img{
+    width: 70%;
+}
+
+/* Start Footer section */
+.footer-area{
+    background: #161616;
+    color: #fff;
+}
+.icon-bg{
+    background: #242424;
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Start Carousel section  */
+.carousel-img{
+    background: rgba(29, 29, 29, 0.7);
+    border-radius: 5px;
+}
+.main-heading{
+    font-size: 45px;
+    font-weight: 600;
+}
+.second-title{
+    font-size: 40px ;
+    font-weight: 600;
+}
+.mx-right{
+    margin-left: 156px;
+}
+/* Start navbar section  */
+.nav-item{
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn-bg-color{
+    background: #289BDE;
+    padding: 9px 25px;
+    color: #fff;
+}
+
+ /* Start ready section  */
+.ready-btn{
+    background: #fff;
+    padding: 9px 25px;
+    color: #289BDE;
+    margin-top: 50px;
+}
+.start-ready{
+    padding: 100px 0px;
+}
+.d-sm-width{
+    width: 100%;
+    margin: auto;
+}
+
+.start-ready-btn{
+    margin-left: 20px;
+}
+.meet-title-content{
+    padding-bottom: 30px;
+}
+.card-item{
+    padding: 0px 10px;
+}
+.start-ready-sm-width{
+    width: 100%;
+    margin: auto;
+}
+
+ /* Start ready section  */
+.carousel-caption {
+    right: 15%;
+    bottom: 12.25rem;
+    left: 15%;
+  }
+  .main-heading {
+    font-size: 50px;
+    
+  }
+   /* Start Freqently section  */
+  .freqently-content{
+    padding-bottom: 35px;
+  }
+.accordion{
+  width: 60%;
+  margin: auto;
+
+}
+
+
+/* start media query */
+
+  @media only screen and (max-width: 900px) {
+    .main-heading {
+        font-size: 45px;
+      }
+    .carousel-caption {
+        right: 15%;
+        bottom: 3.25rem;
+        left: 15%;
+      }
+      .start-ready-btn {
+        margin-left: 0px;
+      }
+      .accordion{
+        padding-bottom: 40px;
+        width: 100%;
+        margin: auto;
+      }
+  }
+
+@media only screen and (max-width: 600px) {
+    .main-heading {
+        font-size: 25px;
+        
+      }
+    .d-xs-none{
+      display: none;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 0;
+        bottom: 0.25rem;
+        left: 0;
+      }
+      .card-item {
+        padding: 10px 10px;
+      }
+      .start-ready{
+        text-align: center;
+      }
+      .freqently-content{
+        padding-bottom: 50px;
+      }
+      .accordion{
+        padding-bottom: 40px;
+      }
+      .meet-title-content{
+        text-align: center;
+      }
+      .second-title {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .card-body{
+        text-align: center;
+      }
+  }
+/* End media query */

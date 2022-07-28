@@ -118,7 +118,7 @@
   .freqently-content{
     padding-bottom: 35px;
   }
-.accordion{
+.accoridon-sm-width{
   width: 60%;
   margin: auto;
 
@@ -139,7 +139,7 @@
       .start-ready-btn {
         margin-left: 0px;
       }
-      .accordion{
+      .accoridon-sm-width{
         padding-bottom: 40px;
         width: 100%;
         margin: auto;
@@ -169,7 +169,7 @@
       .freqently-content{
         padding-bottom: 50px;
       }
-      .accordion{
+      .accoridon-sm-width{
         padding-bottom: 40px;
       }
       .meet-title-content{
